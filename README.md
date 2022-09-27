@@ -4,7 +4,7 @@
 
 ## Welcome to HACKade!
 
-This is a project created for our Software Engineering course CS 3354 at UTD during Fall 2022.
+This is a project created for our Software Engineering course - CS 3354 at UTD during Fall 2022.
 
 ### Our Goal
 In this final project, our aim is to create educational games to help kids have a close interaction with different Cyber Security topics such as capture the flag, defending against hackers, network collapse, creating a defensive software, etc. Here are the following game modes we plan on implementing in HACKade:
@@ -26,4 +26,7 @@ We came up with these flexible roles to ensure overall quality, synergy, and des
 - **Head of Music:** *Jung*
 - **Head of Game AI Logic:** *Machenzie Salinas*
 - **Head of Overall Design & Team Assistant:** *Huyen Huynh*
+      + Be responsible for scheduling group meeting.
+      + Keep up with dealines.
+     
 
