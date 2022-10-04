@@ -24,7 +24,7 @@ We came up with these flexible roles to ensure overall quality, synergy, and des
 - **Head of UI:** *Chayanin Noramuttha*
 - **Head of Documentation & Deadlines:** *Nicolas Torres*
 - **Head of Music:** *Jung*
-- **Head of Game AI Logic:** *Machenzie Salinas*
+- **Head of Game AI Logic:** *Mackenzie Salinas*
 - **Head of Overall Design & Team Assistant:** *Huyen Huynh*
       - Be responsible for scheduling group meeting.
       - Keep up with dealines.
