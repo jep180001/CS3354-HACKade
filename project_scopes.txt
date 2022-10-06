@@ -1,4 +1,10 @@
 HACKade Game
+In this final project, our aim is to create educational games to help kids have a close interaction with different Cyber Security topics such as capture the flag, defending against hackers, network collapse, creating a defensive software, etc. Here are the following game modes we plan on implementing in HACKade:
+Capture the Flag - - You have to capture a little flag before the gray/black hackers, possibly in a maze.
+Defend the Crown -- Basically a tower defense mode, you have to defend against waves of attackers using defenses.
+Network Collapse -- you will have to run with files to deliver them while the network is being hacked and hackers will try to corrupt your path and stop you.
+Cyber Attack -- All out battle between you and hoards of hackers.
+
 1.1 Capture the Flag
 	1.1.1 game platform
 	1.1.2 rules
