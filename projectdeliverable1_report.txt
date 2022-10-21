@@ -8,6 +8,7 @@ Bridgette Bryant, Huyen Huynh, Chayanin Noramuttha, Jung Park, Mackenzie Salinas
 
 I. Final Project Draft and Feedback
   Our feedback mentioned comparing our HACKade application with similar cyber security based games available. There are many similar applications available and we will make sure to differentiate our design by having a unique arcade theme limited to a 2D space. Most of the cyber security game are mobile-long term play based apps or are in virtual reality. Our theme is sufficient to differentiate, but we will also make sure to implement unique twists to our game modes, including their unique rules and point systems. This method will allow our design to be unique and differ from similar games. In addition to, as we design the game, we will either verify that each game has not already been created or we will alter it so that it vastly differs from the original game. Also, our games will be short-term and level based to match the arcade theme.
+*The image of our feedback can be found in issues.
 
 II. Delegation of Tasks:
 Head of Sprite Creation/Non-Functional requirements: Abir Zaman
