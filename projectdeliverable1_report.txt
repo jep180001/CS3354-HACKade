@@ -1,1 +1,84 @@
+CS3354 SOFTWARE ENGINEERING
+Final Project Deliverable I
 
+The HACKade Game
+
+Bridgette Bryant, Huyen Huynh, Chayanin Noramuttha, Jung Park, Mackenzie Salinas, Nicolas Torres, Abir Zaman 
+
+
+I. Final Project Draft and Feedback
+  Our feedback mentioned comparing our HACKade application with similar cyber security based games available. There are many similar applications available and we will make sure to differentiate our design by having a unique arcade theme limited to a 2D space. Most of the cyber security game are mobile-long term play based apps or are in virtual reality. Our theme is sufficient to differentiate, but we will also make sure to implement unique twists to our game modes, including their unique rules and point systems. This method will allow our design to be unique and differ from similar games. In addition to, as we design the game, we will either verify that each game has not already been created or we will alter it so that it vastly differs from the original game. Also, our games will be short-term and level based to match the arcade theme.
+
+II. Delegation of Tasks:
+Head of Sprite Creation/Non-Functional requirements: Abir Zaman
+Head of Backgrounds and Level Generation/Functional Requirements and Feedback: Bridgette Bryant
+Head of UI/Software Process Model: Chayanin Noramuttha
+Head of Documentation & Deadlines/Use Case Diagram: Nicolas Torres
+Head of Music/Architecture Design: Jung Park
+Head of Game AI Logic/Class Diagram: Mackenzie Salinas
+Head of Overall Design and Team Assistant/Sequence Diagram: Huyen Huynh
+
+III. Software Process Model: 
+	The prototyping diagram will be the most suitable software process model for our project for several reasons. First, we are unsure of the efficiency of the algorithms used at each level in our gaming project. Second, we will need to do multiple trials to ensure our HACKade game follows the right direction. As a result, we might need to make some changes or even rebuild the phase to achieve better performance. The prototyping model helps us to detect errors quickly. Another reason that makes us choose this model is that it allows users to try our product and provide instant feedback at each period. Hence, we can improve the game’s performance and design in the early process. Consequently, we can save more time and money as changes usually cost more if it is done later in development. 
+
+IV. Software Requirements: 
+A. Functional Requirements:
+> A user shall be able to select the screens and play all four of the game modes in HACKade from the main screen as well as the high scores screen, tutorials screen, select skins screen, and exit screen including:
+-Capture the Flag
+-Defend the Crown
+-Network Collapse
+-Cyber Attack
+-High Scores
+-Tutorials
+-Select Skins
+-Exit
+> Each game mode shall perform efficiently, give an option to quit or continue after each game mode ends, and keep track of user scores.
+> A user shall be able to quit a game mode any time by entering the escape key.
+> Each user for the game shall be uniquely identified by their entered username.
+> The system shall generate each game mode separately when prompted and treat each game mode as a separate game.
+> A user shall be able to select to view high scores, change settings, select skins, and enter the tutorials from the main screen.
+> HACKade shall start with the main screen, and return the main screen after quitting any previous screens except when the user chooses to view the high scores screen after completing a game mode.
+
+B. Non-functional Requirements: 
+> Program Requirements:
+- Usability Requirements:
+-- HACKade shall be playable on the Windows, Macintosh, and Linux Operating Systems
+- Efficiency Requirements:
+-- Performance Requirements:
+--- HACKade shall run at a consistent 30 fps minimum on all 8th generation Intel Core processors or AMD Ryzen processors
+-- Space Requirements:
+--- HACKade shall take up no more than 1GB of disk space
+- Dependability Requirements:
+-- HACKade shall crash on no more than 0.5% runs on any computer meeting the minimum specifications
+- Security Requirements:
+-- HACKade shall not access any files outside of its folder or allow outside programs to tamper with its code
+> Organizational Requirements:
+- Environmental Requirements:
+-- HACKade shall be primarily developed in a carbon-neutral facility
+- Operational Requirements:
+-- HACKade shall be available for free to all US students and teachers
+- Development Requirements:
+-- HACKade shall be developed entirely by unpaid student volunteers
+> External Requirements
+- Regulatory Requirements:
+-- HACKade shall comply with all elements of COPPA
+- Ethical Requirements:
+-- HACKade shall not provide any user data collected to third parties
+- Legislative Requirements:
+-- Accounting Requirements:
+--- HACKade development shall keep track of all spending
+-- Safety/Security Requirements:
+--- HACKade shall not collect the name or payment information of its users
+
+V. Use Case Diagram:
+VI. Sequence Diagram:
+
+
+
+
+VII. Class Diagram: 
+
+
+
+
+VIII. Architectural Design: 
