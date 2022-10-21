@@ -71,14 +71,9 @@ B. Non-functional Requirements:
 --- HACKade shall not collect the name or payment information of its users
 
 V. Use Case Diagram:
+
 VI. Sequence Diagram:
 
-
-
-
 VII. Class Diagram: 
-
-
-
 
 VIII. Architectural Design: 
