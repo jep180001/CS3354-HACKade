@@ -1,5 +1,5 @@
 # CS3354-HACKade
-### Developers: Abir Zaman, Bridgette Bryant, Chayanin Noramuttha, Huyen Huynh, Jung Park, Nicolas Torres, Mackenzie Salinas
+### Developers: Bridgette Bryant, Huyen Huynh, Chayanin Noramuttha, Jung Park, Mackenzie Salinas, Nicolas Torres, Abir Zaman
 
 
 ## Welcome to HACKade!
