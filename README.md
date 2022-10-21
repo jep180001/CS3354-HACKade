@@ -23,7 +23,7 @@ We came up with these flexible roles to ensure overall quality, synergy, and des
 - **Head of Backgrounds & Level Generation:** *Bridgette Bryant*
 - **Head of UI:** *Chayanin Noramuttha*
 - **Head of Documentation & Deadlines:** *Nicolas Torres*
-- **Head of Music:** *Jung*
+- **Head of Music:** *Jung Park*
 - **Head of Game AI Logic:** *Mackenzie Salinas*
 - **Head of Overall Design & Team Assistant:** *Huyen Huynh*
    
