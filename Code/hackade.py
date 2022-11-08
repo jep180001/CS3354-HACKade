@@ -166,6 +166,12 @@ class MyGame(arcade.Window):
         player_centered = screen_center_x, screen_center_y
 
         self.camera.move_to(player_centered)
+        return screen_center_x, screen_center_y
+
+    def has_won(self):
+        # Checks if all gems are found
+        if self.score == 5:
+            return True
 
     def on_update(self, delta_time):
         """Movement and game logic"""
@@ -189,6 +195,11 @@ class MyGame(arcade.Window):
 
         # Position the camera, within bounds
         self.set_camera()
+
+        # Check if they have collected all gems
+        if self.has_won():
+            print("You've Won HACKade!")
+            print("Thank you for playing!")
 
 
 
