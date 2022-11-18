@@ -14,5 +14,137 @@ Head of Game AI Logic and Cost, Effort, and Pricing Estimation & Hardware Cost: 
 Head of Overall Design and Team Assistant and Conclusion: Huyen Huynh
 
 II. Final Project Deliverable 1 Content:
+I. Final Project Draft and Feedback
+  Our feedback mentioned comparing our HACKade application with similar cyber security based games available. There are many similar applications available and we will make sure to differentiate our design by having a unique arcade theme limited to a 2D space. Most of the cyber security game are mobile-long term play based apps or are in virtual reality. Our theme is sufficient to differentiate, but we will also make sure to implement unique twists to our game modes, including their unique rules and point systems. This method will allow our design to be unique and differ from similar games. In addition to, as we design the game, we will either verify that each game has not already been created or we will alter it so that it vastly differs from the original game. Also, our games will be short-term and level based to match the arcade theme.
+*The image of our feedback can be found in issues.
+
+II. Delegation of Tasks:
+Head of Sprite Creation/Non-Functional requirements: Abir Zaman
+Head of Backgrounds and Level Generation/Functional Requirements and Feedback: Bridgette Bryant
+Head of UI/Software Process Model: Chayanin Noramuttha
+Head of Documentation & Deadlines/Use Case Diagram: Nicolas Torres
+Head of Music/Architecture Design: Jung Park
+Head of Game AI Logic/Class Diagram: Mackenzie Salinas
+Head of Overall Design and Team Assistant/Sequence Diagram: Huyen Huynh
+
+III. Software Process Model: 
+	The prototyping diagram will be the most suitable software process model for our project for several reasons. First, we are unsure of the efficiency of the algorithms used at each level in our gaming project. Second, we will need to do multiple trials to ensure our HACKade game follows the right direction. As a result, we might need to make some changes or even rebuild the phase to achieve better performance. The prototyping model helps us to detect errors quickly. Another reason that makes us choose this model is that it allows users to try our product and provide instant feedback at each period. Hence, we can improve the game’s performance and design in the early process. Consequently, we can save more time and money as changes usually cost more if it is done later in development. 
+
+IV. Software Requirements: 
+A. Functional Requirements:
+> A user shall be able to select the screens and play all four of the game modes in HACKade from the main screen as well as the high scores screen, tutorials screen, select skins screen, and exit screen including:
+-Capture the Flag
+-Defend the Crown
+-Network Collapse
+-Cyber Attack
+-High Scores
+-Tutorials
+-Select Skins
+-Exit
+> Each game mode shall perform efficiently, give an option to quit or continue after each game mode ends, and keep track of user scores.
+> A user shall be able to quit a game mode any time by entering the escape key.
+> Each user for the game shall be uniquely identified by their entered username.
+> The system shall generate each game mode separately when prompted and treat each game mode as a separate game.
+> A user shall be able to select to view high scores, change settings, select skins, and enter the tutorials from the main screen.
+> HACKade shall start with the main screen, and return the main screen after quitting any previous screens except when the user chooses to view the high scores screen after completing a game mode.
+
+B. Non-functional Requirements: 
+> Program Requirements:
+- Usability Requirements:
+-- HACKade shall be playable on the Windows, Macintosh, and Linux Operating Systems
+- Efficiency Requirements:
+-- Performance Requirements:
+--- HACKade shall run at a consistent 30 fps minimum on all 8th generation Intel Core processors or AMD Ryzen processors
+-- Space Requirements:
+--- HACKade shall take up no more than 1GB of disk space
+- Dependability Requirements:
+-- HACKade shall crash on no more than 0.5% runs on any computer meeting the minimum specifications
+- Security Requirements:
+-- HACKade shall not access any files outside of its folder or allow outside programs to tamper with its code
+> Organizational Requirements:
+- Environmental Requirements:
+-- HACKade shall be primarily developed in a carbon-neutral facility
+- Operational Requirements:
+-- HACKade shall be available for free to all US students and teachers
+- Development Requirements:
+-- HACKade shall be developed entirely by unpaid student volunteers
+> External Requirements
+- Regulatory Requirements:
+-- HACKade shall comply with all elements of COPPA
+- Ethical Requirements:
+-- HACKade shall not provide any user data collected to third parties
+- Legislative Requirements:
+-- Accounting Requirements:
+--- HACKade development shall keep track of all spending
+-- Safety/Security Requirements:
+--- HACKade shall not collect the name or payment information of its users
+
+V. Use Case Diagram:
+Found in issues.
+VI. Sequence Diagram:
+Found in issues.
+VII. Class Diagram: 
+Found in issues.
+VIII. Architectural Design: 
+Found in issues.
+
+III. Project Scheduling, Cost, Effort and Pricing Estimation:
+A. Project Scheduling  
+	We decided that the start of the project is to begin on December 1st, 2022. This project's estimated schedule will be approximately one month, which will not include weekends and a holiday vacation week off for Christmas and the New Year. This estimation will also be due to the complexity of our project and the need for quality assurance. The time will also account for refined visuals for the game. In addition, a week will be added for final bug testing. As a result, we can expect a fully implemented project by January 6th, 2023. As the industry standard, a team of seven professionals is expected to work 7-8 hours daily. Below is a detailed week-by-week schedule:
+Week 1 - December 1-2:
+Brief the team on the project and discuss the design idealised for the project. Take feedback and adjust design as necessary.
+Week 2 - December 5-9:
+Introduce the game library, Pygame, to the team. One or two days will be dedicated to familiarisation with the library, and then basic code implementation will begin. The visual design will be discussed for the art department of the team.
+Week 3 - December 12-16:
+Create an alpha version of the game to test the game’s basic functions for the various game modes. The art team will create rough visuals for the game to have basic playability. Based off feedback, final decisions of the overall game design will be made and the fundamental code will be reworked for designs that don’t work or various unintended issues.
+Week 4 - December 19-23:
+Move onto the beta phase of the game and create beta tests for a dedicated quality assurance team. The various game modes should overall have their complex functionality to be playable. Visuals are refined and complex code is implemented in order to create the start of a release version by the end of the week.
+Week 5 - December 26-30:
+No work is done this week due to the holiday season.
+Week 6 - January 2-6:
+This week is reserved for bug testing. The game will be tested extensively for any bugs and as many as possible will be fixed for quality assurance. Final version of the game is ready and released by January 6th.
+B. Cost, Effort, and Pricing Estimation
+- Alternative Cost Modeling Technique
+  For the alternative cost modeling technique, we chose the Application Composition model of the Constructive Cost Model (COCOMO) II because it is used during the early stages of production to generate a prototype. Furthermore, the application composition model is the best model to implement in our project because we can develop a prototype to test and verify that all gaming components are working accurately. As a result, we did not choose to use the Function Point (FP) model. The main reason our team decided not to utilize FP was that fact that we must determine the processing complexity criteria. However, as we were at the beginning stages, we felt we needed more confidence to give an accurate prediction. 
+  In our project, we will have five screens. The first screen will have four views, and the rest will have one view of the game mode. We will also have two reports to keep track of the high scores and the user names associated with each player. We plan to implement our program using a Python-based library called Pygame. Since our project will incorporate the arcade library, we expect that at least 50% of the project code will be reusable from the available resources. We have also decided that, as a team, our PROD (developer’s experience and capabilities) has a medium average score as some members are unfamiliar with Python and its associated libraries, while other members have more experience than others. Our application composition model can be seen below:
+
+Count number of screens, reports, and 3GL: 
+Screen : 5 (for each game mode and main screen)
+Report: 2 (highscore, usernames)
+Complexity Level of Screen and Report:
+Screens: 5
+Number of views: 8 (1st screen has 4 views, and one for the other 4 screens)
+Number of data tables: 2 (users and high score)
+Complexity Level: Medium
+Reports: 2
+Number of sections: 5 (overall game highscore, and highscore for each game mode)
+Number of data tables: 2 (users and high score)
+Complexity Level: Medium	
+Complexity Weight based off the chart:
+Complexity weight for each screen: 2
+Complexity weight for each report: 5
+Object Point Count (OP):
+5*2 + 2*5 = 20
+NOP:
+NOP = [20 * (100-50)]/100 = 10
+PROD: 
+Average = 13
+Effort PM:
+Effort PM = NOP/PROD
+10/13 = 0.769 persons/month
+- Estimated Cost of Hardware Products
+  Hardware products will be essential to produce our game. Hardware products that we will need consist of a laptop for every employee, Internet access, a projector for team meetings, and a server. We would need a dedicated server because it provides more power than a hybrid server. A dedicated server will run full-time with updates and have enough user capacity. Also, as our design is 2-dimensional (2D) and does not have high-resolution graphics, we can utilize a server with the specs of 4 Cores, 3.80 GHz, and 16 GB RAM [6]. A server with these specifications costs approximately $350 per month [6]. Also, one of the best laptops currently available for software engineers is the Lenovo ThinkPad X1 Carbon Gen 10 (2022), which can cost around $1100 per employee [9]. Every employee would get the same laptop with the same storage capacity and specifications. We will also need one projector for team meetings which can cost, on average, $210 [2]. Also, since most of the end-coding process can be done remotely, the Internet is a vital hardware component. Internet access nowadays is not an obstacle as most people have Wi-Fi access within their homes, and public areas also provide free Wi-Fi access. Most companies with remote workers provide their employees with Internet access or reimbursement [3]. The average cost of Internet in the United States is approximately $40 per month [13]. As a result, the estimated cost of hardware products for a month-long project is about $8,300, and an additional $350 per month to maintain.
+Estimated Cost of Software Products 
+		As discussed previously, HACKade will be a 2D game, which requires us to utilize fewer software products than other games. The main software product we will utilize to create our project is the Python game libraries. Currently, many frameworks are available on the market, with a wide range of prices. The top popular Python libraries offer free resources and have many open-source projects. For our project, we will be using one of these frameworks called Pygame. Pygame is the best option for our project as it allows us to manage all components of our game, such as user inputs, user movements, and different game modes, within one comprehensive platform [1][14].
+Furthermore, the diverse functionalities of the Python library allow us to easily and quickly implement our game for real-time use [14]. Also, the framework includes game graphics and sound design. As a result, the estimated cost for our software products is zero dollars as all available resources are open-source. 
+- Estimate Cost of Personnel 
+	The simplicity of the HACKade game allows for a simpler game development team to be required. The overall size of personnel will be around seven people. One of the main personnel needed will be a project manager. The manager will oversee the entire development process and ensure that the game is developed and delivered on time. The average salary of a project manager is around $146,000 dollars per year [16]. Other personnel needed will be software engineers and programmers. As the scale of the project is smaller, only one software engineer and two programmers will be needed to produce the end product. The average cost of a software engineer is around $169,000 dollars per year, and the average salary for a programmer is around $81,000 per year [4][5]. In addition to, other personnel needed for the game development will be a game designer, writer, and quality assurance tester. The average salary for a game designer is approximately $66,700 dollars per year, and the salary for a game writer is around $74,800 per year [17][18]. Also, the salary for a video game tester is around $60,000 per year [19]. The cost of additional training after installation will depend on the client, if training is needed, it will primarily focus on how to maintain the product, which can cost around $1,100 per employee [11]. However, as our client is an educational firm, we will assume that the client will outsource the maintenance of the product, so there will be no additional cost. Therefore, assuming the timeline for the project is approximately a month long, the total cost of personnel will be around $42,500 dollars for the entire project. 
+IV. Test Plan for Software 
+  We will test our code for proper, bug-free operation using PyUnit. PyUnit works very similarly to JUnit, providing a comprehensive framework for the unit testing of python programs [15]. We will test all valid inputs for all functions, and various invalid inputs, including testing the keyboard inputs for moving the character, along with various other vital presses, and ensuring the character moves in the proper direction or does nothing for invalid inputs. Additionally, testing will be done with the character positioned, so that their movement is blocked by an object or the edge of the world, ensuring that it does not move. Finally, we will use this testing methodology for all other vital inputs with associated functions, such as pausing, quitting, and pressing buttons on the user interface. Additionally, as new functionalities are added, we will perform unit testing, so additional game modes, mechanics, and enemies will be tested as the code is added. It will ensure that improper functionality and unintended behavior can be corrected before additional program elements depending on them, are added. If the testing was delayed and performed later, it could result in large amounts of code needing to be redone at once, delaying the addition of new features.
+  Currently, we have written the test cases for character movement described above. —------------------------------ The PyUnit test cases will be attached separately within the zip file as well as on the Github. 
+V. Comparison of Program with Similar Designs 
+  Thousands of games and arcades are available on the market, all with different purposes, formats, and functionality. HACKade is readily differentiable from current games as the intention behind the project itself creates a stark contrast. HACKade works to expose children to critical and current Computer Science (CS) topics through arcade games. One distinction is that most games on the market are for entertainment purposes rather than educational. However, some games on the market are created for educational intent. These games focus on a range of topics or one specific issue, with no medium between the two. For example, Hack The Box created a game called Hacking Battlegrounds, where the game aims to fight off hackers [8]. The game's theme is similar to HACKade as it focuses on hacking; however, that is the only similarity. While HACKade does contain a game called Network Collapse, where users try to protect the network from hackers, our game is designed for kids. So the game will have traditional movements, such as moving up and down while carrying files, rather than having players create and implement their code. Similar to how Hacking Battlegrounds focuses on stimulating real-world hacking circumstances where users will code. Also, another distinction of HACKade is the creation of a unique arcade theme design expressly limited to a 2D space. Many games are created with 3-dimensional (3D) design, which has become the preferred design format for game graphics. For example, in figures 1 and 2, the distinct 2D design of HACKade can be seen on the left, compared to the well-known game Pac-Man, on the right. 
+* Figures 1 and 2 can be find in the issues section. *
+  Similarly to most games, current arcades have a 3D design that contains games mainly in a 3D format. As well as having differing designs, these arcades also contain a variety of games that have no common theme with each other, while all the games in the project are focused only on CS subject matter. For example, PBS games have a variety of collections of 3D games that range in topics from space to animals [10]. Unlike those arcades, in figure 3, the unique 2D design in the HACKade game of Capture the Flag can be seen, where hackers are represented as characters wearing either a white or black hat, exposing the audience to the types of hackers, which corresponds to the theme of CS. Another difference is the format of the games. For example, most cyber security games are either mobile-long term play-based apps or are in virtual reality. Some examples are Cyber Match Attack and Enter, which are both available in mobile app stores. However, HACKade is a Web-based arcade, allowing a more extensive range of children to utilize the game. Another difference is the implementation of unique twists in the different game modes in HACKade, including special rules and point systems. For example, the games available in HACKade are short-term and level-based to match the arcade theme. These examples are a few differences between HACKade and ongoing games.
 
 
