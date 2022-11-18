@@ -1,1 +1,18 @@
+CS3354 SOFTWARE ENGINEERING
+Final Project Deliverable 2
+
+The HACKade Game
+Bridgette Bryant, Huyen Huynh, Chayanin Noramuttha, Jung Park, Mackenzie Salinas, Nicolas Torres, Abir Zaman 
+
+I. Delegation of Tasks:
+Head of Sprite Creation and Project Scheduling: Abir Zaman
+Head of Backgrounds and Level Generation and Writing Test Method: Bridgette Bryant
+Head of UI and Comparision: Chayanin Noramuttha
+Head of Documentation & Deadlines and Testing Test Method: Nicolas Torres
+Head of Music and Software & Personnel Cost: Jung Park
+Head of Game AI Logic and Cost, Effort, and Pricing Estimation & Hardware Cost: Mackenzie Salinas
+Head of Overall Design and Team Assistant and Conclusion: Huyen Huynh
+
+II. Final Project Deliverable 1 Content:
+
 
